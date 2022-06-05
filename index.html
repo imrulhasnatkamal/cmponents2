@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <title></title>
+  </head>
+  <body>
+    <!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <title>Components</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="margin-top: 10px;">Carousel</h2>
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- slider s -->
+          <div id="crs1" class="carousel slide" data-bs-ride="carousel">
+            <!-- indicator -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#crs1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#crs1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#crs1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#crs1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+            </div>
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="images/pic1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block " >
+                  <h5>Watch Out Picture</h5>
+                  <p>Enjoy the beauty of the nature</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/pic2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h5>Watch Out Picture</h5>
+                  <p>Enjoy the beauty of the nature</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/pic3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h5>Watch Out Picture</h5>
+                  <p>Enjoy the beauty of the nature</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/pic4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h5>Watch Out Picture</h5>
+                  <p>Enjoy the beauty of the nature</p>
+                </div>
+              </div>
+            </div>
+            <!-- slider butoot -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#crs1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#crs1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- slider e -->
+
+        </div>
+      </div>
+
+
+      <!-- container end -->
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Collapse</h2>
+
+          <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#cll1_id" aria-expanded="false" aria-controls="cll1_id">
+              ClickToSee
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="cll1_id">
+              <div class="card card-body" style="width: 300px;">
+                to ses our latest update say with us.don't forget look inside...
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <h2 style="margin-top:10px;">Dropdown</h2>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dd1_id" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dd1_id">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#">Nice</a></li>
+
+        </ul>
+      </div>
+
+      <h2 style="margin-top: 10px;">Modal</h2>
+
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#mbt1_id">
+Click to go inside
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="mbt1_id" tabindex="-1" aria-labelledby="mt1_id" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mt1_id">Please sing-up to stay with us.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>You have to give your email,phone below:</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-info">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- nav and tab -->
+  <h2 style="margin-top:10px ;">nav tab</h2>
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+      <p>"When group SAML SSO is configured, <br>
+        the SCIM feature (available only on Premium+ subscriptions) <br>
+        may allow any owner of a Premium group to invite arbitrary users  <br>
+        through their username and email, then change those users' email addresses <br>
+        via SCIM to an attacker controlled email address and thus — in the absence of 2FA — <br>
+        take over those accounts," GitLab said.</p>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+      <p>"When group SAML SSO is configured, <br>
+        the SCIM feature (available only on Premium+ subscriptions) <br>
+        may allow any owner of a Premium group to invite arbitrary users <br>
+        through their username and email, then change those users' email addresses <br>
+        via SCIM to an attacker controlled email address and thus — in the absence of 2FA — <br>
+        take over those accounts," GitLab said.</p>
+    </div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+      <p>"When group SAML SSO is configured, 
+        the SCIM feature (available only on Premium+ subscriptions) <br>
+        may allow any owner of a Premium group to invite arbitrary users <br>
+        through their username and email, then change those users' email addresses <br>
+        via SCIM to an attacker controlled email address and thus — in the absence of 2FA — <br>
+        take over those accounts," GitLab said.</p>
+    </div>
+    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+
+    </div>
+  </div>
+  <!-- nav and tab end -->
+
+  <h2>nav tab 2 </h2>
+  <div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+      <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" disabled>Disabled</button>
+      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+        <p>"When group SAML SSO is configured, <br>
+          the SCIM feature (available only on Premium+ subscriptions) <br>
+          may allow any owner of a Premium group to invite arbitrary users  <br>
+          through their username and email, then change those users' email addresses <br>
+          via SCIM to an attacker controlled email address and thus — in the absence of 2FA — <br>
+          take over those accounts," GitLab said.</p>
+      </div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+        <p>"When group SAML SSO is configured, <br>
+        the SCIM feature (available only on Premium+ subscriptions) <br>
+        may allow any owner of a Premium group to invite arbitrary users  <br>
+        through their username and email, then change those users' email addresses <br>
+        via SCIM to an attacker controlled email address and thus — in the absence of 2FA — <br>
+        take over those accounts," GitLab said.</p></div>
+      <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+        <p>"When group SAML SSO is configured, <br>
+        the SCIM feature (available only on Premium+ subscriptions) <br>
+        may allow any owner of a Premium group to invite arbitrary users  <br>
+        through their username and email, then change those users' email addresses <br>
+        via SCIM to an attacker controlled email address and thus — in the absence of 2FA — <br>
+        take over those accounts," GitLab said.</p></div>
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+        <p>"When group SAML SSO is configured, <br>
+        the SCIM feature (available only on Premium+ subscriptions) <br>
+        may allow any owner of a Premium group to invite arbitrary users  <br>
+        through their username and email, then change those users' email addresses <br>
+        via SCIM to an attacker controlled email address and thus — in the absence of 2FA — <br>
+        take over those accounts," GitLab said.</p></div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+    </div>
+  </div>
+
+  <h2 style="margin: 10px;">Offcanvas</h2>
+
+  <a class="btn btn-danger" data-bs-toggle="offcanvas" href="#ofcn1_id" role="button" aria-controls="ofcn1_id">
+    Click
+  </a>
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="ofcn1_id" aria-labelledby="ofcn1_idLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="ofcn1_idLabel">Watch everything</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        <p>The latest details come from Moore's Law is Dead where it is <br>
+          stated that Intel is expected to launch its 14th Gen Meteor Lake <br>
+          CPUs in 2023 and 15th Gen Arrow Lake CPUs in 2024. Now both of these <br>
+          lineups have been confirmed by Intel themselves including the generations<br>
+           beyond that which are codenamed Lunar Lake and Nova Lake. The key detail in the <br>
+           latest video is that both families will be utilizing a brand new socket known as LGA 2551.</p>
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          See the latest
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#">Faq</a></li>
+          <li><a class="dropdown-item" href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+      <!-- container end -->
+    </div>
+
+    <div class="container">
+      <h2 style="margin-top: 10px;">Tooltips</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+            Tooltip on left
+          </button>
+        </div>
+      </div>
+      <h2>img tooltips</h2>
+      <img src="images/pic2.jpg" class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="top" title="Its is the best pic" alt="">
+      
+    
+    </div>
+  <div class="container">
+    <h2>Slider 1</h2>
+    <div class="row">
+      <div class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-7">
+             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+               <div class="carousel-inner">
+                 <!-- item start -->
+                 <div class="carousel-item active" data-bs-interval="10000">
+                   <div class="slider">
+                     <h1>Watch our latest sites</h1>
+                     <p>
+                       To visit us email us so that we can find you.
+                       To visit us email us so that we can find you.
+                       To visit us email us so that we can find you.
+                       To visit us email us so that we can find you.
+                     </p>
+                     <button type="button" class="btn btn-primary btn_cus">Click</button>
+                   </div>
+                 </div>
+                 <!-- item end -->
+                   <!-- item start -->
+                   <div class="carousel-item" data-bs-interval="10000">
+                     <div class="slider">
+                       <h1>Watch our latest sites</h1>
+                       <p>
+                         To visit us email us so that we can find you.
+                         To visit us email us so that we can find you.
+                         To visit us email us so that we can find you.
+                         To visit us email us so that we can find you.
+                       </p>
+                       <button type="button" class="btn btn-primary btn_cus">Click</button>
+                     </div>
+                   </div>
+                   <!-- item end -->
+                     <!-- item start -->
+                 <div class="carousel-item" data-bs-interval="10000">
+                   <div class="slider">
+                     <h1>Watch our latest sites</h1>
+                     <p>
+                       To visit us email us so that we can find you.
+                       To visit us email us so that we can find you.
+                       To visit us email us so that we can find you.
+                       To visit us email us so that we can find you.
+                     </p>
+                     <button type="button" class="btn btn-primary btn_cus">Click</button>
+                   </div>
+                 </div>
+                 <!-- item end -->
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Next</span>
+               </button>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+      
+</body>
+</html>
